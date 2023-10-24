@@ -105,12 +105,12 @@ description: "When it comes to delivering bleeding edge digital solutions,we tru
         alt: "Unimelb"
       },
       {
-        src: "/logos/unimelb.svg",
+        src: "/logos/grd.svg",
         url: "https://unimelb.edu.au/",
         alt: "Unimelb"
       },
       {
-        src: "/logos/unimelb.svg",
+        src: "/logos/wd1.svg",
         url: "https://unimelb.edu.au/",
         alt: "Unimelb"
       },
