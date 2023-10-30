@@ -37,4 +37,109 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+
+
+
+  
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--  <style>-->
+<!--        body {-->
+<!--            display: flex;-->
+<!--            justify-content: center;-->
+<!--            align-items: center;-->
+<!--            min-height: 100vh;-->
+<!--            margin: 0;-->
+<!--        }-->
+
+<!--        #splash-screen {-->
+<!--            animation: fadeIn 2s ease-in-out, spin 2s linear infinite;-->
+<!--            color: black;-->
+<!--            text-align: center;-->
+<!--        }-->
+
+<!--        @keyframes spin {-->
+<!--            0% {-->
+<!--                transform: rotate(0deg);-->
+<!--            }-->
+<!--            100% {-->
+<!--                transform: rotate(360deg);-->
+<!--            }-->
+<!--        }-->
+
+<!--        @keyframes fadeIn {-->
+<!--            0% {-->
+<!--                opacity: 0;-->
+<!--            }-->
+<!--            100% {-->
+<!--                opacity: 1;-->
+<!--            }-->
+<!--        }-->
+<!--    </style>-->
+  <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        #spinner   {
+
+            animation: spin 1s linear infinite;
+            color:black;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .inline{
+            display: flex;
+        }
+        .spinner i{
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="inline">
+  <p class="spinner" id="spinner"><i class="fa fa-spinner fa-5x"></i></p>
+</div>
+<!--<div id="splash-screen">-->
+<!--  <h1>Loading...</h1>-->
+<!--</div>-->
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
 </html>
