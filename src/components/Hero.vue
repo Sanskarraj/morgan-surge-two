@@ -72,7 +72,7 @@ const Heading = styled.h1`
   margin: 32px auto;
   font-weight: 600;
   @media screen and (max-width: ${({theme}) => theme.screen.width.desktop}px) {
-    font-size: 72px;
+    font-size: 2.8rem;
   }
 `
 

@@ -2,7 +2,7 @@ export default {
   author: "MorganSurge",
   hero: {
     subtitle: "Unlocking Potential, Building Success.",
-    description: ["Our commitment to unlock the full potential", "Paving the way for a brighter and prosperous future"],
+    description: ["Our commitment to unlock the full potential", "Paving the way for a brighter and successful future"],
     cta: "Discover",
   },
   products: {
@@ -25,7 +25,7 @@ export default {
           "/doubletext/0.jpg",
           "/doubletext/1.jpg",
           "/doubletext/2.jpg",
-          "/doubletext/3.jpg",
+          // "/doubletext/3.jpg",
         ]
       },
       {
@@ -129,11 +129,7 @@ description: "When it comes to delivering bleeding edge digital solutions,we tru
   footer: {
     tagline: "MorganSurge — Melbourne, Australia",
     links: [
-      {
-        name: "Twitter",
-        url: "https://twitter.com/samxstudio",
-        fa: "fab fa-twitter" // Code from: https://fontawesome.com/v5/icons/twitter?s=brands
-      },
+      
       // {
       //   name: "Medium",
       //   url: "https://medium.com/@samxie",
